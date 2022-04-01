@@ -1,2 +1,2 @@
 # sudani
-##app to genereting phone number depanding on particular conditions
+## app to genereting phone number depanding on particular conditions
