@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Genrate Sudani Number</title>
+        <style>
+            *{
+                box-sizing: border-box;
+            }
+            .container {
+                padding: 20px;
+            }
+            .container > button {
+                display: block;
+                margin: auto;
+                background: rgb(255 78 78);
+                padding: 10px;
+                outline: none;
+                border-radius: 5px;
+                border: none;
+                cursor: pointer;
+                text-transform: capitalize;
+            }
+            .container .number-container {
+                padding: 20px;
+                padding-top: 10px;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                background: #f89b1f;
+                margin-top: 10px;
+                border-radius: 10px;
+            }
+            .container .number-container > div {
+                background: rgb(126, 22, 22);
+                padding: 15px 9px;
+                margin-top: 10px;
+                color: white;
+                border-radius: 10px;
+                text-align: center;
+                flex-basis: 125px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <button class="btn">generate</button>
+            <div class="number-container"></div>
+        </div>
+        <script src="sudani.js"></script>
+    </body>
+</html>
