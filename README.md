@@ -1,4 +1,4 @@
-![screenshot](sudani.png)
+![screenshot](sudani.jpg)
 
 
 # 📱 Sudani Number Generator
